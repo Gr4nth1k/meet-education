@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Meet Computer Education | Premier IT Training in Boisar</title>
+    <meta name="description" content="Boisar's premier computer education centre — MS-CIT, Tally with GST, Video Editing, and 9th/10th coaching. Enrol today!">
+    <meta name="keywords" content="computer education Boisar, MS-CIT Boisar, Tally GST, coaching class, Meet Education">
+    <meta property="og:title" content="Meet Computer Education | Boisar">
+    <meta property="og:description" content="Premier IT training & school coaching in Boisar since 2015.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#1a237e">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    </style>
+</head>
+
+<body>
+
+    <!-- ================================================================
+        HEADER
+    ================================================================ -->
+    <header class="header" id="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Meet Computer Education Logo">
+            Meet <span class="acc">Education</span>
+        </div>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#coaching">Coaching</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary" style="flex-shrink:0;">Enquire Now</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"
+            aria-controls="mobile-nav">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <a href="#" onclick="closeMobileNav()"><i class="fas fa-home"></i> Home</a>
+        <a href="#about" onclick="closeMobileNav()"><i class="fas fa-info-circle"></i> About</a>
+        <a href="#coaching" onclick="closeMobileNav()"><i class="fas fa-book-open"></i> Coaching</a>
+        <a href="#courses" onclick="closeMobileNav()"><i class="fas fa-laptop"></i> Courses</a>
+        <a href="#contact" onclick="closeMobileNav()"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="#contact" onclick="closeMobileNav()" class="mob-cta">
+            <i class="fas fa-paper-plane"></i>&nbsp; Enquire Now — It's Free
+        </a>
+    </nav>
+
+    <!-- ================================================================
+        HERO
+    ================================================================ -->
+    <section class="hero" id="home" aria-label="Hero">
+
+        <div class="hero-particles" aria-hidden="true" id="particles"></div>
+
+        <!-- LEFT -->
+        <div class="hero-left">
+            <span class="hero-eyebrow">
+                <i class="fas fa-map-marker-alt"></i>&nbsp;Boisar, Palghar &mdash; Est. 2015
+            </span>
+
+            <h1 class="hero-h1">
+                Unlock Your<br>
+                <em>Digital Future</em><br>
+                Today
+            </h1>
+
+            <div class="hero-typing">
+                &gt;&nbsp;Courses:&nbsp;MS-CIT &bull; Tally+GST &bull; Video&nbsp;Editing<span class="cursor"></span>
+            </div>
+
+            <p class="hero-sub">
+                Boisar's most trusted computer training centre — led by M.Sc CS faculty with 15+ years of experience
+                shaping real careers.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#courses" class="btn btn-gold">
+                    <i class="fas fa-rocket" style="font-size:.78rem;"></i> Explore Courses
+                </a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+
+            <div class="hero-instr">
+                <div class="instr-avatar">👨‍🏫</div>
+                <div class="instr-info">
+                    <strong>Ashish Sir</strong>
+                    <span>Founder &amp; Lead Instructor</span>
+                    <div class="instr-creds">
+                        <span class="instr-pill">M.Sc CS</span>
+                        <span class="instr-pill">15+ Yrs</span>
+                        <span class="instr-pill">Tally Expert</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust-row">
+                <div class="trust-pill"><i class="fas fa-certificate"></i> MKCL Certified</div>
+                <div class="trust-pill"><i class="fas fa-shield-alt"></i> Govt. Approved</div>
+                <div class="trust-pill"><i class="fas fa-briefcase"></i> Job Assistance</div>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="hero-right">
+            <div class="hero-canvas">
+                <div class="ring-o" aria-hidden="true"></div>
+                <div class="ring-i" aria-hidden="true"></div>
+
+                <svg class="circuit-svg" viewBox="0 0 460 500" preserveAspectRatio="none" aria-hidden="true">
+                    <path class="cp" d="M20,80 L120,80 L120,20 L240,20" />
+                    <path class="cp" d="M440,420 L340,420 L340,480 L180,480" />
+                    <path class="cp" d="M440,80 L360,80 L360,160 L440,160" />
+                    <path class="cp" d="M20,420 L80,420 L80,360 L20,360" />
+                    <circle class="cd" cx="120" cy="80" r="4" />
+                    <circle class="cd" cx="240" cy="20" r="3" />
+                    <circle class="cd" cx="340" cy="420" r="4" />
+                    <circle class="cd" cx="360" cy="160" r="3" />
+                </svg>
+
+                <div class="photo-frame">
+                    <img src="img/banner_main.jpg" alt="Ashish Sir — Founder, Meet Computer Education, Boisar"
+                        loading="eager" fetchpriority="high">
+                    <div class="code-strip" aria-hidden="true">
+                        <div class="code-ticker">const student = new Future();
+                            student.enroll("MS-CIT");
+                            student.learn(["Tally","Python","WebDev"]);
+                            student.build("career").deploy();
+                            // ✓ Success: career.launched</div>
+                    </div>
+                </div>
+
+                <div class="instr-badge">
+                    <strong>Ashish Sir &nbsp;<i class="fas fa-check-circle"
+                            style="color:var(--gold);font-size:.75rem;"></i></strong>
+                    <span>Meet Computer Education, Boisar (W)</span>
+                    <div class="ib-creds">
+                        <span class="ib-cred">M.Sc CS</span>
+                        <span class="ib-cred">15+ Yrs</span>
+                        <span class="ib-cred">Python &amp; Tally</span>
+                    </div>
+                </div>
+
+                <div class="sbadge sb-tl">
+                    <div class="sbi" style="background:rgba(245,166,35,.15);color:var(--gold);"><i
+                            class="fas fa-users"></i></div>
+                    <div><strong>500+</strong><span>Students</span></div>
+                </div>
+                <div class="sbadge sb-tr">
+                    <div class="sbi" style="background:rgba(16,185,129,.12);color:#10b981;"><i class="fas fa-star"></i>
+                    </div>
+                    <div><strong>4.9 / 5.0</strong><span>Rating</span></div>
+                </div>
+                <div class="sbadge sb-bl">
+                    <div class="sbi" style="background:rgba(100,120,255,.15);color:#7986cb;"><i
+                            class="fas fa-laptop-code"></i></div>
+                    <div><strong>MS-CIT</strong><span>Govt. Recognised</span></div>
+                </div>
+                <div class="sbadge sb-br">
+                    <div class="sbi" style="background:rgba(245,166,35,.15);color:var(--gold);"><i
+                            class="fas fa-certificate"></i></div>
+                    <div><strong>MKCL</strong><span>Certified</span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ================================================================
+        STATS STRIP
+    ================================================================ -->
+    <div class="stats-strip" role="region" aria-label="Key statistics">
+        <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Students Trained</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Expert Mentors</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Practical Labs</div>
+        </div>
+    </div>
+
+    <!-- ================================================================
+        ABOUT
+    ================================================================ -->
+    <section id="about" class="bg-white" aria-labelledby="about-h">
+        <div class="about-grid">
+            <div class="about-img-wrap">
+                <img src="img/banner_main.jpg" alt="Students at Meet Computer Education, Boisar">
+                <div class="about-badge">
+                    <strong>15+</strong>
+                    <span>Years of<br>Excellence</span>
+                </div>
+            </div>
+            <div class="about-body">
+                <span class="sec-lbl">Why Choose Us</span>
+                <h2 class="sec-title" id="about-h">A Tradition of<br><em>Excellence</em> in IT Training</h2>
+                <p>Meet Computer Education is Boisar's premier destination for high-quality digital learning. We build
+                    confidence, professional competence, and open doors to careers in technology.</p>
+                <div class="feat-grid">
+                    <div class="feat-item"><i class="fas fa-check-circle"></i> Certified Tutors</div>
+                    <div class="feat-item"><i class="fas fa-check-circle"></i> Flexible Batches</div>
+                    <div class="feat-item"><i class="fas fa-check-circle"></i> Job Assistance</div>
+                    <div class="feat-item"><i class="fas fa-check-circle"></i> Updated Curriculum</div>
+                    <div class="feat-item"><i class="fas fa-check-circle"></i> Hands-on Labs</div>
+                    <div class="feat-item"><i class="fas fa-check-circle"></i> Certificate Courses</div>
+                </div>
+                <a href="#contact" class="btn btn-primary">
+                    Get in Touch &nbsp;<i class="fas fa-arrow-right" style="font-size:.72rem;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+        COACHING
+    ================================================================ -->
+    <section id="coaching" class="bg-surface" aria-labelledby="coaching-h">
+        <span class="sec-lbl">School Coaching</span>
+        <h2 class="sec-title" id="coaching-h">9th &amp; 10th <em>Board Preparation</em></h2>
+        <p class="sec-sub">Excellence in CBSE &amp; Maharashtra State Board curriculum with focused doubt-clearing and
+            regular mock tests.</p>
+
+        <div class="coaching-grid">
+            <article class="coaching-card gold">
+                <div class="coaching-icon gold"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Class 10th — SSC / CBSE</h3>
+                <ul class="check-list">
+                    <li><i class="fas fa-check-circle"></i> Mathematics &amp; Science</li>
+                    <li><i class="fas fa-check-circle"></i> English &amp; Social Studies</li>
+                    <li><i class="fas fa-check-circle"></i> Weekly Mock Tests &amp; OMRs</li>
+                    <li><i class="fas fa-check-circle"></i> Previous Year Board Papers</li>
+                </ul>
+            </article>
+            <article class="coaching-card navy">
+                <div class="coaching-icon navy"><i class="fas fa-book-open"></i></div>
+                <h3>Class 9th — CBSE / State Board</h3>
+                <ul class="check-list">
+                    <li><i class="fas fa-check-circle"></i> Conceptual Maths Mastery</li>
+                    <li><i class="fas fa-check-circle"></i> Science — Phy / Chem / Bio</li>
+                    <li><i class="fas fa-check-circle"></i> Regular Parent-Teacher Meets</li>
+                    <li><i class="fas fa-check-circle"></i> Personalised Doubt Sessions</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- ================================================================
+    COURSES
+================================================================ -->
+    <section id="courses" class="bg-white" aria-labelledby="courses-h">
+        <span class="sec-lbl">Our Programmes</span>
+        <h2 class="sec-title" id="courses-h">Signature <em>IT Courses</em></h2>
+        <p class="sec-sub">Industry-aligned, government-recognised programmes designed to get you job-ready fast.</p>
+
+        <div class="courses-grid" id="courses-grid">
+
+            <!-- 1. MS-CIT — govt flagship, highest enrolment -->
+            <article class="course-card">
+                <div class="course-thumb">
+                    <span class="price-pill">₹4,999</span>
+                    <img src="img/course/ms-cit.png" alt="MS-CIT course" loading="lazy">
+                    <div class="course-thumb-overlay" aria-hidden="true"></div>
+                </div>
+                <div class="course-body">
+                    <h3>MS-CIT</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> MS Office — Word, Excel &amp; PowerPoint</li>
+                        <li><i class="fas fa-check-circle"></i> Internet, Email &amp; Cyber Security</li>
+                        <li><i class="fas fa-check-circle"></i> Digital Literacy &amp; e-Governance</li>
+                    </ul>
+                    <div class="course-cta"><a href="#contact">Enquire <i class="fas fa-arrow-right"></i></a></div>
+                </div>
+            </article>
+
+            <!-- 2. Tally with GST — highest job demand -->
+            <article class="course-card">
+                <div class="course-thumb">
+                    <span class="price-pill">₹7,999</span>
+                    <img src="img/course/tally-with-gst.jpg" alt="Tally with GST course" loading="lazy">
+                    <div class="course-thumb-overlay" aria-hidden="true"></div>
+                </div>
+                <div class="course-body">
+                    <h3>Tally with GST</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> GST Filing, Returns &amp; Compliance</li>
+                        <li><i class="fas fa-check-circle"></i> Inventory &amp; Payroll Management</li>
+                        <li><i class="fas fa-check-circle"></i> Balance Sheet &amp; Financial Reporting</li>
+                    </ul>
+                    <div class="course-cta"><a href="#contact">Enquire <i class="fas fa-arrow-right"></i></a></div>
+                </div>
+            </article>
+
+            <!-- 3. Advance Excel — widely used in offices -->
+            <article class="course-card">
+                <div class="course-thumb">
+                    <span class="price-pill">₹8,999</span>
+                    <img src="img/course/adv-excel.jpg" alt="Advance Excel course" loading="lazy">
+                    <div class="course-thumb-overlay" aria-hidden="true"></div>
+                </div>
+                <div class="course-body">
+                    <h3>Advance Excel</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Formulas, Functions &amp; Pivot Tables</li>
+                        <li><i class="fas fa-check-circle"></i> Data Analysis &amp; Charts</li>
+                        <li><i class="fas fa-check-circle"></i> Macros &amp; VBA Automation</li>
+                    </ul>
+                    <div class="course-cta"><a href="#contact">Enquire <i class="fas fa-arrow-right"></i></a></div>
+                </div>
+            </article>
+
+            <!-- 4. MKCL Video Editing — MKCL certified -->
+            <article class="course-card">
+                <div class="course-thumb">
+                    <span class="price-pill">₹8,999</span>
+                    <img src="img/course/mkcl-video-edit.jpg" alt="MKCL Video Editing course" loading="lazy">
+                    <div class="course-thumb-overlay" aria-hidden="true"></div>
+                </div>
+                <div class="course-body">
+                    <h3>MKCL Video Editing</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Video Editing with Adobe Premiere Pro</li>
+                        <li><i class="fas fa-check-circle"></i> Motion Graphics &amp; Transitions</li>
+                        <li><i class="fas fa-check-circle"></i> Colour Grading &amp; Visual Effects</li>
+                    </ul>
+                    <div class="course-cta"><a href="#contact">Enquire <i class="fas fa-arrow-right"></i></a></div>
+                </div>
+            </article>
+
+            <!-- 5. Photoshop — creative/design -->
+            <article class="course-card">
+                <div class="course-thumb">
+                    <span class="price-pill">₹8,999</span>
+                    <img src="img/course/photoshop.jpg" alt="Photoshop course" loading="lazy">
+                    <div class="course-thumb-overlay" aria-hidden="true"></div>
+                </div>
+                <div class="course-body">
+                    <h3>Photoshop</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Photo Editing &amp; Retouching</li>
+                        <li><i class="fas fa-check-circle"></i> Graphic Design &amp; Poster Creation</li>
+                        <li><i class="fas fa-check-circle"></i> Layer Masking &amp; Digital Compositing</li>
+                    </ul>
+                    <div class="course-cta"><a href="#contact">Enquire <i class="fas fa-arrow-right"></i></a></div>
+                </div>
+            </article>
+
+            <!-- 6. CorelDRAW — vector/print design -->
+            <article class="course-card">
+                <div class="course-thumb">
+                    <span class="price-pill">₹8,999</span>
+                    <img src="img/course/core-i-draw.webp" alt="CorelDRAW course" loading="lazy">
+                    <div class="course-thumb-overlay" aria-hidden="true"></div>
+                </div>
+                <div class="course-body">
+                    <h3>CorelDRAW</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Vector Graphics &amp; Logo Design</li>
+                        <li><i class="fas fa-check-circle"></i> Banner, Brochure &amp; Print Layout</li>
+                        <li><i class="fas fa-check-circle"></i> Typography &amp; Brand Identity Design</li>
+                    </ul>
+                    <div class="course-cta"><a href="#contact">Enquire <i class="fas fa-arrow-right"></i></a></div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ================================================================
+        CONTACT
+    ================================================================ -->
+    <section id="contact" class="bg-surface" aria-labelledby="contact-h">
+        <span class="sec-lbl">Contact Us</span>
+        <h2 class="sec-title" id="contact-h">Get in <em>Touch</em></h2>
+        <p class="sec-sub">Have questions or ready to enrol? Reach out — we respond within 24 hours.</p>
+
+        <div class="contact-grid">
+            <!-- info -->
+            <div>
+                <h3 class="ci-title">Visit Our Centre</h3>
+                <p class="ci-sub">Conveniently located in Boisar West, easily accessible by public transport.</p>
+
+                <div class="c-detail">
+                    <div class="c-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="c-detail-body">
+                        <p>Address</p>
+                        <p>Shop No. 22, Prestige Appartment, Opp. Rahul International School, Boisar West, Palghar</p>
+                    </div>
+                </div>
+                <div class="c-detail">
+                    <div class="c-detail-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="c-detail-body">
+                        <p>Phone</p>
+                        <p>
+                            <a href="tel:+918788414406" style="color:var(--navy);font-weight:500;">+91 87884 14406</a>
+                            &nbsp;|&nbsp;
+                            <a href="tel:+919156443375" style="color:var(--navy);font-weight:500;">+91 91564 43375</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="c-detail">
+                    <div class="c-detail-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="c-detail-body">
+                        <p>Email</p>
+                        <p><a href="mailto:meetcomputereducationboisar@gmail.com"
+                                style="color:var(--navy);font-weight:500;word-break:break-all;">meetcomputereducationboisar@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="c-detail">
+                    <div class="c-detail-icon"><i class="fas fa-clock"></i></div>
+                    <div class="c-detail-body">
+                        <p>Working Hours</p>
+                        <p>Mon – Sat: 9:00 AM – 8:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="map-wrap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.112552447248!2d72.75567687400618!3d19.79282468156503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71f3d8b840683%3A0xfa3f508e5ec12b51!2sMEET%20COMPUTER%20EDUCATION%20AND%20COACHING%20CLASS!5e0!3m2!1sen!2sin!4v1772893774596!5m2!1sen!2sin"
+                        title="Meet Computer Education on Google Maps" allowfullscreen loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- form -->
+            <div class="form-card">
+                <h3 class="form-title">Send us a Message</h3>
+                <p class="form-sub">Fill the form and we'll get back to you shortly.</p>
+
+                <form id="contact-form" novalidate>
+                    <input type="hidden" name="access_key" value="e6ff447a-503f-4a09-a11a-681c2340bb71">
+
+                    <div class="form-row">
+                        <div class="fg">
+                            <label for="f-name">Full Name <span style="color:#e53e3e">*</span></label>
+                            <input type="text" id="f-name" name="name" placeholder="e.g. Rahul Sharma" required
+                                autocomplete="name">
+                        </div>
+                        <div class="fg">
+                            <label for="f-phone">Phone <span style="color:#e53e3e">*</span></label>
+                            <input type="tel" id="f-phone" name="phone" placeholder="+91 98765 43210" required
+                                autocomplete="tel">
+                        </div>
+                    </div>
+
+                    <div class="fg">
+                        <label for="f-email">Email Address</label>
+                        <input type="email" id="f-email" name="email" placeholder="you@example.com"
+                            autocomplete="email">
+                    </div>
+                    <div class="fg">
+                        <label for="f-course">Interested Course</label>
+                        <select id="f-course" name="course">
+                            <option value="">— Select a course —</option>
+                            <option>MS-CIT</option>
+                            <option>Tally with GST</option>
+                            <option>Advance Excel</option>
+                            <option>MKCL Video Editing</option>
+                            <option>Photoshop</option>
+                            <option>CorelDRAW</option>
+                            <option>Class 9th Coaching</option>
+                            <option>Class 10th Coaching</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="fg">
+                        <label for="f-msg">Message</label>
+                        <textarea id="f-msg" name="message"
+                            placeholder="Tell us more about what you're looking for…"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit" id="submit-btn">
+                        Send Message &nbsp;<i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="form-result" role="alert" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+        FOOTER
+    ================================================================ -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo" style="margin-bottom:12px;">
+                    <img src="img/logo.png" alt="Meet Education logo" style="height:38px;">
+                    Meet <span class="acc">Education</span>
+                </div>
+                <p>Elevating digital skills in Boisar through professional IT training and school coaching since 2015.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/918788414406" aria-label="WhatsApp" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#coaching">Coaching</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Courses</h4>
+                <ul>
+                    <li><a href="#courses">MS-CIT</a></li>
+                    <li><a href="#courses">Tally with GST</a></li>
+                    <li><a href="#courses">MKCL Video Editing</a></li>
+                    <li><a href="#coaching">9th &amp; 10th Coaching</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="page/privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="page/terms-of-service/">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="foot-divider">
+        <div class="footer-bottom">
+            <span>© 2026 Meet Computer Education &amp; Coaching Class, Boisar, Palghar</span>
+            <span>Made with <i class="fas fa-heart" style="color:var(--gold);font-size:.62rem;"></i> in Boisar</span>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top of page">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
